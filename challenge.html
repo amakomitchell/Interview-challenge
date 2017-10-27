@@ -11,8 +11,7 @@
         <!--Optional theme -->
         <link rel="stylesheet" href="boostrap-3.3.7/css/bootstrap-theme.min.css">
 
-    </head>
-    <style>
+        <style>
         body{
             padding: 40px;
         }
@@ -27,7 +26,35 @@
             left: 0;
             width: 100%;
         }
+       #car{
+           float: right;
+           
+       }
+       #texture{
+           float: right;
+       }
+        .col-lg-6{
+            padding: 2%;
+        }
+        #products{
+            padding: 1%;
+        }
+        h1{
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        }
+        h2{
+            text-transform: uppercase;
+        }
+        p{
+            text-align: justify;
+        }
+        h6{
+            font-weight: bold;
+        }
     </style>
+
+    </head>
+    
     <body data-spy="scroll" data-target="my-navbar">
         <ul class="nav nav-tabs nav-justified">
             <li><a href="#about">About</a></li>
@@ -84,7 +111,6 @@
 						<span class="glyphicon glyphicon-chevron-right"></span>
 					</a>
 				</div><!-- end carousel -->
-			
 			</section>
 		</div>
         <!--ends gallery-->
@@ -117,6 +143,143 @@
                 </div>
             </div>
         </div>
+
+        <div class="container">
+            <section>
+                <div class="row">
+                    <div class="col-md-6">
+                        <img src="images/man.jpg" height="735" width="500" alt="This is a man">
+                    </div>
+                    <div class="col-md-6">
+                        <img src="images/car.jpg" alt="This is a car" id="car" width="600">    
+                    </div>
+                    <div class="col-lg-6">
+                        <img src="images/woman.jpg" alt="This is a car" id="car" width="600">  
+                    </div>  
+                </div><!--Ends row -->
+
+                <div class="row">
+                    <div class="col-md-6">
+                        <img src="images/baloon.jpg" alt="This is a baloon" width="500">
+                    </div>
+                    <div class="col-md-6">
+                        <img src="images/texture.jpg" alt="This is a texture" width="600" id="texture" height="435">
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <div class="container">
+            <section>
+                <div class="row">
+                    <div class="col-lg-12">
+                        <img src="images/products.png" alt="This is an image" width="1150" id="products">
+                    </div>
+                </div>
+            </section>
+        </div>
+        <div class="container">
+            <section>
+                <div class="page-header">
+                    <h1>Clients</h1>
+                </div>
+                <div class="row">
+                    <div class="col-lg-12">
+                        <img src="images/fonts.jpg" alt="This is an image" width="1150" id="fonts">
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <div class="container">
+            <section>
+                <div class="page-header">
+                    <h1>Culture</h1>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <img src="images/girl.png" alt="this is an image">
+                    </div>
+                    <div class="col-md-6">
+                        <img src="images/photoshoot.png" alt="this is an image">
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-6">
+                        <h2>From the journal</h2>
+                        <h1>Introducing: Alexia Sparacio</h1>
+                        <blockquote>
+                            <p>Meet Alexa, our newest designer at The Charles NYC. Alexa has a love for 
+                                all things matcha and a killer sense of style. Find out more about her 
+                                on our journal.
+                            </p>
+                            <p><a href="#">Read more</a></p>
+                        </blockquote>
+                    </div>
+                    <div class="col-md-6">
+                        <h2>Giving you life</h2>
+                        <h1>Life at The Charles</h1>
+                        <blockquote>
+                            <p>Between internal meetings and daily deadlines, life happens at The Charles.
+                                We've created a special place on the web for those lively moments. See 
+                                what we get up to at The Charles on our day to day.
+                            </p>
+                            <p><a href="#">Read more</a></p>
+                        </blockquote>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <footer>
+            <hr>
+                <div class="container">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <h1>The Charles NYC</h1>
+                            </div>
+                            <div class="col-md-4">
+                                <p>Follow Us </p>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-sm-3">
+                                <h6>NYC</h6>
+                                <blockquote>
+                                    <p>401 Broadway, Suite 601 New York, NY 10013 info@thecharlesnyc.com +1 212.226.8929
+                                    </p>
+                                </blockquote>
+                            </div>
+                            <div class="col-sm-3">
+                                <h6>CHI</h6>
+                                <blockquote>
+                                    <p>320 W Ohio St, Suite 3W Chicago, IL 60654 info@thecharlesnyc.com +1 312.379.8934
+                                    </p>
+                                </blockquote>
+                            </div>
+                            <div class="col-sm-3">
+                                <h6>LDN</h6>
+                                <blockquote>
+                                    <p>1 Mercer Street London, UK WC2H Q9J info@thecharlesnyc.com +44(0)203.675.7721
+                                    </p>
+                                </blockquote>
+                            </div>
+                            <div class="col-sm-3">
+                                <blockquote>
+                                    <p>Sign up for our list</p>
+                                    <form action="" class="form-inline">
+                                        <div class="form-group">
+                                            <input type="text" class="form-control" id="email" placeholder="EMAIL">
+                                        </div>
+                                    </form>
+                                </blockquote>
+                            </div>
+                        </div>
+                </div>
+            </hr>
+        </footer>
 
         <script src="jquery-3.2.1.min.js"></script>
 		<!--Latest compiled and minified javascript -->
